@@ -1,0 +1,18 @@
+.Nebula-btn-outer {
+    padding: 1px;
+    border-radius: 5rem;
+    background: linear-gradient(270.38deg, #B48DFF 51.45%, rgba(180, 141, 255, 0.2) 100.21%);
+
+    .btn-inner {
+        border-radius: 5rem;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(270deg, #7A46F3 0%, rgba(122, 70, 243, 0.3) 100%);
+
+    }
+
+    .btn-inner:hover {
+        background: linear-gradient(270.38deg, #B48DFF 51.45%, rgba(180, 141, 255, 0.2) 100.21%) !important;
+    }
+
+}

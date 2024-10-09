@@ -1,0 +1,25 @@
+.custom-menu-item {
+    background: linear-gradient(180deg, #222129 0%, #000000 100%);
+    color: #EDEDED !important;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    // border: 1px solid #8D56F0;
+    border-radius: 3.5rem !important;
+    padding: 10.5px 20px 10.5px 12px !important;
+    height: 3rem !important;
+    margin-bottom: 1rem !important;
+    display: block;
+}
+
+.custom-menu-item:hover {
+    background: linear-gradient(89.93deg, #8D56F0 -0.64%, #261C3E 124.91%);
+    border: 1px solid #8D56F0;
+}
+
+.custom-menu-item.active {
+    background: linear-gradient(89.93deg, #8D56F0 -0.64%, #261C3E 124.91%);
+    border: 1px solid #8D56F0;
+    /* Active item color */
+    color: white;
+    /* Active text color */
+}

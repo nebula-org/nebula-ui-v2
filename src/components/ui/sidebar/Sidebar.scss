@@ -1,0 +1,25 @@
+.Nebula-Sidebar {
+    // width: 16.5rem;
+    background: linear-gradient(180deg, #222129 0%, #000000 100%);
+    border-right: 1px solid #2D2C32;
+
+    &__sider {
+        width: 100%;
+
+        &__menu {
+            // background: linear-gradient(90.02deg, #41316D -0.91%, #1D1B26 129.17%);
+            background: linear-gradient(90.02deg, #222129 -0.91%, #000000 129.17%);
+            height: 100%;
+
+            padding: 1.5rem;
+
+            .active-menu {
+                background: linear-gradient(90.02deg, #41316D -0.91%, #1D1B26 129.17%);
+
+            }
+        }
+
+
+    }
+
+}

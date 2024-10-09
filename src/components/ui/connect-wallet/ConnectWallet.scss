@@ -1,0 +1,88 @@
+
+.NB-connect-wallet--custom {
+    border-radius: 1rem;
+    background: linear-gradient(181.14deg, #212028 0.93%, #0F0F0F 56.18%);
+    color: #A1A0A6;
+    padding: 2rem;
+}
+
+.NB-connect-wallet {
+    align-self: center;
+    padding: 0.25rem;
+
+    &__container {
+        padding: 1px;
+        border-radius: 5rem;
+        height: 3rem;
+        width: 12.25rem;
+        background: linear-gradient(270.63deg, #FFFFFF -16.37%, #27262C 16.31%);
+
+
+    }
+
+    &__btn {
+        height: 3rem;
+        width: 12.25rem;
+        background-color: #000000;
+        border-radius: 5rem;
+        padding: 10.656rem 1rem 10.6560.5rem;
+    }
+
+    &__btn:hover {
+
+        .NB-connect-wallet__address__txt,
+        .NB-connect-wallet__address__copy {
+            color: #000000;
+        }
+    }
+
+
+    &__connected {
+        display: flex;
+        align-items: center;
+
+        &__account {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+
+            &__txt {
+                font-size: 0.75rem;
+                color: #A1A0A6;
+
+            }
+        }
+
+    }
+
+    &__address {
+        margin-right: 0.25rem;
+
+        &__copy {
+            margin-left: 0.5rem;
+            cursor: pointer;
+            color: #EDEDED;
+        }
+
+        &__txt {
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 500;
+            text-align: left;
+            color: #EDEDED;
+        }
+    }
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        margin: 0rem 0.25rem;
+
+        &__image {
+            width: 1.875rem;
+            height: 1.875rem;
+        }
+
+    }
+}

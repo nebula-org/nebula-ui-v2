@@ -1,0 +1,52 @@
+.policy-listing {
+    margin-top: 1rem;
+
+    &__options-outer {
+        background: linear-gradient(180deg, #393842 0%, rgba(59, 58, 64, 0.5) 100%);
+        padding: 1px;
+        border-radius: 3.125rem;
+        width: 20.375rem;
+        // height: 3rem;
+        margin-bottom: 1rem;
+
+
+    }
+
+    &__options {
+        // background: linear-gradient(180deg, #222129 0%, #000000 100%);
+        border-radius: 3.125rem;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    &__option-outer {
+
+        // background: linear-gradient(269.93deg, #8D56F0 -2.43%, #261C3E 41.72%);
+        background: linear-gradient(180deg, #222129 0%, #000000 100%);
+        padding: 1px;
+        border-radius: 5rem;
+
+        width: 50%;
+
+        .active {
+            color: #8D56F0;
+        }
+
+
+    }
+
+    &__option {
+        // background: linear-gradient(90.02deg, #41316D -0.91%, #1D1B26 129.17%);
+        border-radius: 5rem;
+        // height: 3rem;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    &__option:hover {
+        opacity: 0.5;
+    }
+}

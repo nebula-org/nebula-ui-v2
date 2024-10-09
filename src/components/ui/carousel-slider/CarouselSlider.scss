@@ -1,0 +1,26 @@
+.slider-content {}
+
+.custom-arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.custom-prev-arrow {
+    margin-right: 1rem;
+}
+
+.prev-icon,
+.next-icon {
+    cursor: pointer;
+    padding: 0.625rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #8D56F0;
+}
+
+.prev-icon:hover,
+.next-icon:hover {
+    opacity: 0.5;
+}

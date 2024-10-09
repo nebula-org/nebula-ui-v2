@@ -1,0 +1,19 @@
+.Dashboard {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+        height: 4.56rem;
+        padding: 0.25rem 1.5rem;
+        display: flex;
+    }
+
+    &__content {
+        background-image: url("../../../public/images/bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+}

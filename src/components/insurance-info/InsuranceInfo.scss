@@ -1,0 +1,23 @@
+.NB-InsuranceInfo {
+
+    .heading {
+        display: flex;
+        margin-bottom: 1rem;
+
+        .icon {
+            width: 5%;
+            margin-right: 1rem;
+        }
+
+        .title {
+
+            text-align: left;
+        }
+    }
+
+    .id {
+        color: #B28BFF;
+        margin-bottom: 1rem;
+
+    }
+}

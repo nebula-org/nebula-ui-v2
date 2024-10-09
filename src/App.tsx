@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { usePrivy } from '@privy-io/react-auth';
+import { LoginButton } from './components/login-button/LoginButton';
+import { useNavigate } from 'react-router-dom';
 
 function App() {
+  const { ready, authenticated, user, login } = usePrivy();
+  const navigate = useNavigate();
+
+  if (ready && authenticated) {
+    navigate("/home", { replace: true })
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LoginButton
+        ready={ready}
+        authenticated={authenticated}
+        login={login}
+      />
     </div>
   );
 }

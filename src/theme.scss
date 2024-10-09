@@ -1,0 +1,40 @@
+// src/theme.scss
+
+
+// $primary-color: #7A46F3;
+// ; // Customize your primary color
+// $link-color: #1DA57A; // Link color
+// $success-color: #52c41a; // Success color
+// $warning-color: #faad14; // Warning color
+// $error-color: #f5222a; // Error color
+
+
+@import "./theme.background.scss";
+@import "./theme.menu.scss";
+@import "./theme.font.scss";
+
+// Override Ant Design styles
+// .ant-btn-primary {
+//   // background-color: $primary-color;
+//   // border-color: $primary-color;
+
+//   &:hover {
+//     background-color: darken($primary-color, 10%);
+//     border-color: darken($primary-color, 10%);
+//   }
+// }
+
+// Add more overrides as needed
+
+//Dropdown
+.ant-dropdown-arrow::before {
+  background: linear-gradient(181.14deg, #212028 0.93%, #0F0F0F 56.18%) !important;
+}
+
+.ant-layout-sider-has-trigger {
+  padding-bottom: 0 !important;
+}
+
+.ant-layout-sider .ant-layout-sider-trigger {
+  background: linear-gradient(181.14deg, #212028 0.93%, #0F0F0F 56.18%)
+}
